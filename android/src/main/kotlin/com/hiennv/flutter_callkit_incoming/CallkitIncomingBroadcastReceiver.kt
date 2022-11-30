@@ -187,7 +187,7 @@ class CallkitIncomingBroadcastReceiver : BroadcastReceiver() {
     }
 
     @Suppress("UNCHECKED_CAST")
-    private fun sendEventFlutter(event: String, data: Bundle) {
+    private fun sendEventFlutter(event: String, bundle: Bundle) {
         FlutterCallkitIncomingPlugin.sendEvent(event, bundle.toData())
     }
 
