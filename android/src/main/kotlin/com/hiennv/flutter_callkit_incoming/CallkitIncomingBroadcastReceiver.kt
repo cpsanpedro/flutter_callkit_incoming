@@ -222,8 +222,5 @@ class CallkitIncomingBroadcastReceiver : BroadcastReceiver() {
                 "extra" to getSerializable(EXTRA_CALLKIT_EXTRA) as HashMap<String, Any?>,
                 "android" to android
         )
-
-    }
-
     }
 }
